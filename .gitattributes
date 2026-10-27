@@ -1,2 +1,3 @@
 * annex.backend=MD5E
+*.sif annex.largefiles=anything
 **/.git* annex.largefiles=nothing
