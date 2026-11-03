@@ -1,2 +1,5 @@
 [datalad "dataset"]
 	id = 1bb71067-2405-4a41-bdb6-2184c5a12a42
+[datalad "containers.task"]
+        image = images/task_stimuli.sif
+        cmdexec = {img_dspath}/scripts/run_task.sh {img} python3 /src/task_stimuli/main.py {cmd}
