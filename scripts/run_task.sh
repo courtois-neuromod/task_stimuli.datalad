@@ -5,4 +5,7 @@ apptainer exec -e \
   -B ${XAUTHORITY}:${XAUTHORITY} \
   --env XAUTHORITY=$XAUTHORITY \
   --env DISPLAY=$DISPLAY \
+  --env PULSE_SERVER=unix:${XDG_RUNTIME_DIR}/pulse/native \
+  --env PULSE_COOKIE=$HOME/.config/pulse/cookie \
+  --nv \
   $@
