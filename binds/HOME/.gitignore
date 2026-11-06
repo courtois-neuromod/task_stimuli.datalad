@@ -1,0 +1,8 @@
+.*sh_history
+.gitconfig
+.lesshst
+.viminfo
+.keras
+.psychopy*
+.config
+.cache
